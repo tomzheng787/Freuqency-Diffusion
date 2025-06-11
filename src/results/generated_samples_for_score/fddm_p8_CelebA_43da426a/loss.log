@@ -1,0 +1,218 @@
+0-2024-12-04 11:02:58,062 [INFO] ['sample_condition.py',
+ '--model_config=configs/model_config.yaml',
+ '--diffusion_config=configs/diffusion_config.yaml',
+ '--task_config=configs/motion_deblur_config.yaml']
+0-2024-12-04 11:02:58,063 [INFO] Config(device='cuda:cuda:cuda:5', loss_wrapper_function='noise_coeff', normalize_loss_wrapper=False, channels=3, batch_size=64, eval_batch_size=1, save_and_sample_every=10000, save_state_every=10000, epochs=10000000, num_train_timesteps=1000, max_steps=800000, results_folder=PosixPath('../results/generated_samples_for_score/fddm_p8_CelebA_43da426a'), fermi_start=4, fermi_end=-4, temperature=0.5, pad=[0, 0, 0, 0], image_size=64, cache_dataset=False, run_name='generated_samples_for_score/fddm_p8_CelebA', learning_rate=0.0002, lr_warmup_steps=5000, dataset='CelebA', ema_decay=0.9999, ema_update_every=1, save_input_samples=True, save_fourier_samples=False, process_name='fddm', t2=None, unet='ddpm_unet_LiF', overfit=False, fermi_schedule='linear', fermi_muliplier=1.0, checkpoint_path='/root/new/FDDM/results/fddm_p8_CelebA_e444d590/model-160000.pt', input_normalization_scale=1.0, input_normalization='no_normalization', lr_scheduler='cosine', denoise_algo='soft_ddim', loss_type='reshaped_freq_full_img_v2', DiT_model=None, ddim_sigma=1, runner='run.py', out_channels=3, patch_size=8, norm_freq_comps=False, ddpm_unet_checkpoint=False, clip_sample=True, num_inference_steps=1000)
+0-2024-12-04 11:02:58,064 [INFO] Using ddpm_unet_LiF
+0-2024-12-04 11:02:58,834 [INFO] number of parameters: 60487296
+0-2024-12-04 11:02:58,965 [INFO] Using linear fermi schedule
+0-2024-12-04 11:03:00,793 [INFO] Loading checkpoint from /root/new/FDDM/results/fddm_p8_CelebA_e444d590/model-160000.pt
+0-2024-12-04 11:03:01,419 [INFO] Loading checkpoint from /root/new/FDDM/results/fddm_p8_CelebA_e444d590/model-160000.pt
+0-2024-12-04 11:03:01,436 [INFO] Loaded model
+0-2024-12-04 11:03:01,452 [INFO] Loaded ema
+0-2024-12-04 11:03:01,503 [INFO] Loaded optimizer
+0-2024-12-04 11:03:01,503 [INFO] Loaded step 160000
+0-2024-12-04 11:03:01,504 [INFO] <class 'fddm_process.FDDMRunner'>
+0-2024-12-04 11:03:01,682 [INFO] ['sample_condition.py',
+ '--model_config=configs/model_config.yaml',
+ '--diffusion_config=configs/diffusion_config.yaml',
+ '--task_config=configs/motion_deblur_config.yaml']
+0-2024-12-04 11:03:01,682 [INFO] Config(device='cuda:cuda:cuda:5', loss_wrapper_function='noise_coeff', normalize_loss_wrapper=False, channels=3, batch_size=64, eval_batch_size=1, save_and_sample_every=10000, save_state_every=10000, epochs=10000000, num_train_timesteps=1000, max_steps=800000, results_folder=PosixPath('../results/generated_samples_for_score/fddm_p8_CelebA_4603531a'), fermi_start=4, fermi_end=-4, temperature=0.5, pad=[0, 0, 0, 0], image_size=64, cache_dataset=False, run_name='generated_samples_for_score/fddm_p8_CelebA', learning_rate=0.0002, lr_warmup_steps=5000, dataset='CelebA', ema_decay=0.9999, ema_update_every=1, save_input_samples=True, save_fourier_samples=False, process_name='fddm', t2=None, unet='ddpm_unet_LiF', overfit=False, fermi_schedule='linear', fermi_muliplier=1.0, checkpoint_path='/root/new/FDDM/results/fddm_p8_CelebA_e444d590/model-160000.pt', input_normalization_scale=1.0, input_normalization='no_normalization', lr_scheduler='cosine', denoise_algo='soft_ddim', loss_type='reshaped_freq_full_img_v2', DiT_model=None, ddim_sigma=1, runner='run.py', out_channels=3, patch_size=8, norm_freq_comps=False, ddpm_unet_checkpoint=False, clip_sample=True, num_inference_steps=1000)
+0-2024-12-04 11:03:01,683 [INFO] Using ddpm_unet_LiF
+0-2024-12-04 11:03:02,364 [INFO] number of parameters: 60487296
+0-2024-12-04 11:03:02,421 [INFO] Using linear fermi schedule
+0-2024-12-04 11:03:04,388 [INFO] Loading checkpoint from /root/new/FDDM/results/fddm_p8_CelebA_e444d590/model-160000.pt
+0-2024-12-04 11:03:04,833 [INFO] Loading checkpoint from /root/new/FDDM/results/fddm_p8_CelebA_e444d590/model-160000.pt
+0-2024-12-04 11:03:04,849 [INFO] Loaded model
+0-2024-12-04 11:03:04,864 [INFO] Loaded ema
+0-2024-12-04 11:03:04,907 [INFO] Loaded optimizer
+0-2024-12-04 11:03:04,907 [INFO] Loaded step 160000
+0-2024-12-04 11:03:04,908 [INFO] <class 'fddm_process.FDDMRunner'>
+0-2024-12-04 11:03:04,988 [INFO] ['sample_condition.py',
+ '--model_config=configs/model_config.yaml',
+ '--diffusion_config=configs/diffusion_config.yaml',
+ '--task_config=configs/motion_deblur_config.yaml']
+0-2024-12-04 11:03:04,989 [INFO] Config(device='cuda:cuda:cuda:5', loss_wrapper_function='noise_coeff', normalize_loss_wrapper=False, channels=3, batch_size=64, eval_batch_size=1, save_and_sample_every=10000, save_state_every=10000, epochs=10000000, num_train_timesteps=1000, max_steps=800000, results_folder=PosixPath('../results/generated_samples_for_score/fddm_p8_CelebA_47fbcc38'), fermi_start=4, fermi_end=-4, temperature=0.5, pad=[0, 0, 0, 0], image_size=64, cache_dataset=False, run_name='generated_samples_for_score/fddm_p8_CelebA', learning_rate=0.0002, lr_warmup_steps=5000, dataset='CelebA', ema_decay=0.9999, ema_update_every=1, save_input_samples=True, save_fourier_samples=False, process_name='fddm', t2=None, unet='ddpm_unet_LiF', overfit=False, fermi_schedule='linear', fermi_muliplier=1.0, checkpoint_path='/root/new/FDDM/results/fddm_p8_CelebA_e444d590/model-160000.pt', input_normalization_scale=1.0, input_normalization='no_normalization', lr_scheduler='cosine', denoise_algo='soft_ddim', loss_type='reshaped_freq_full_img_v2', DiT_model=None, ddim_sigma=1, runner='run.py', out_channels=3, patch_size=8, norm_freq_comps=False, ddpm_unet_checkpoint=False, clip_sample=True, num_inference_steps=1000)
+0-2024-12-04 11:03:04,989 [INFO] Using ddpm_unet_LiF
+0-2024-12-04 11:03:05,676 [INFO] number of parameters: 60487296
+0-2024-12-04 11:03:05,733 [INFO] Using linear fermi schedule
+0-2024-12-04 11:03:07,759 [INFO] Loading checkpoint from /root/new/FDDM/results/fddm_p8_CelebA_e444d590/model-160000.pt
+0-2024-12-04 11:03:08,202 [INFO] Loading checkpoint from /root/new/FDDM/results/fddm_p8_CelebA_e444d590/model-160000.pt
+0-2024-12-04 11:03:08,218 [INFO] Loaded model
+0-2024-12-04 11:03:08,234 [INFO] Loaded ema
+0-2024-12-04 11:03:08,276 [INFO] Loaded optimizer
+0-2024-12-04 11:03:08,276 [INFO] Loaded step 160000
+0-2024-12-04 11:03:08,278 [INFO] <class 'fddm_process.FDDMRunner'>
+0-2024-12-04 11:03:08,359 [INFO] ['sample_condition.py',
+ '--model_config=configs/model_config.yaml',
+ '--diffusion_config=configs/diffusion_config.yaml',
+ '--task_config=configs/motion_deblur_config.yaml']
+0-2024-12-04 11:03:08,359 [INFO] Config(device='cuda:cuda:cuda:5', loss_wrapper_function='noise_coeff', normalize_loss_wrapper=False, channels=3, batch_size=64, eval_batch_size=1, save_and_sample_every=10000, save_state_every=10000, epochs=10000000, num_train_timesteps=1000, max_steps=800000, results_folder=PosixPath('../results/generated_samples_for_score/fddm_p8_CelebA_49fe2bb6'), fermi_start=4, fermi_end=-4, temperature=0.5, pad=[0, 0, 0, 0], image_size=64, cache_dataset=False, run_name='generated_samples_for_score/fddm_p8_CelebA', learning_rate=0.0002, lr_warmup_steps=5000, dataset='CelebA', ema_decay=0.9999, ema_update_every=1, save_input_samples=True, save_fourier_samples=False, process_name='fddm', t2=None, unet='ddpm_unet_LiF', overfit=False, fermi_schedule='linear', fermi_muliplier=1.0, checkpoint_path='/root/new/FDDM/results/fddm_p8_CelebA_e444d590/model-160000.pt', input_normalization_scale=1.0, input_normalization='no_normalization', lr_scheduler='cosine', denoise_algo='soft_ddim', loss_type='reshaped_freq_full_img_v2', DiT_model=None, ddim_sigma=1, runner='run.py', out_channels=3, patch_size=8, norm_freq_comps=False, ddpm_unet_checkpoint=False, clip_sample=True, num_inference_steps=1000)
+0-2024-12-04 11:03:08,360 [INFO] Using ddpm_unet_LiF
+0-2024-12-04 11:03:09,035 [INFO] number of parameters: 60487296
+0-2024-12-04 11:03:09,092 [INFO] Using linear fermi schedule
+0-2024-12-04 11:03:10,998 [INFO] Loading checkpoint from /root/new/FDDM/results/fddm_p8_CelebA_e444d590/model-160000.pt
+0-2024-12-04 11:03:11,453 [INFO] Loading checkpoint from /root/new/FDDM/results/fddm_p8_CelebA_e444d590/model-160000.pt
+0-2024-12-04 11:03:11,470 [INFO] Loaded model
+0-2024-12-04 11:03:11,486 [INFO] Loaded ema
+0-2024-12-04 11:03:11,530 [INFO] Loaded optimizer
+0-2024-12-04 11:03:11,530 [INFO] Loaded step 160000
+0-2024-12-04 11:03:11,532 [INFO] <class 'fddm_process.FDDMRunner'>
+0-2024-12-04 11:03:11,610 [INFO] ['sample_condition.py',
+ '--model_config=configs/model_config.yaml',
+ '--diffusion_config=configs/diffusion_config.yaml',
+ '--task_config=configs/motion_deblur_config.yaml']
+0-2024-12-04 11:03:11,610 [INFO] Config(device='cuda:cuda:cuda:5', loss_wrapper_function='noise_coeff', normalize_loss_wrapper=False, channels=3, batch_size=64, eval_batch_size=1, save_and_sample_every=10000, save_state_every=10000, epochs=10000000, num_train_timesteps=1000, max_steps=800000, results_folder=PosixPath('../results/generated_samples_for_score/fddm_p8_CelebA_4bee3b00'), fermi_start=4, fermi_end=-4, temperature=0.5, pad=[0, 0, 0, 0], image_size=64, cache_dataset=False, run_name='generated_samples_for_score/fddm_p8_CelebA', learning_rate=0.0002, lr_warmup_steps=5000, dataset='CelebA', ema_decay=0.9999, ema_update_every=1, save_input_samples=True, save_fourier_samples=False, process_name='fddm', t2=None, unet='ddpm_unet_LiF', overfit=False, fermi_schedule='linear', fermi_muliplier=1.0, checkpoint_path='/root/new/FDDM/results/fddm_p8_CelebA_e444d590/model-160000.pt', input_normalization_scale=1.0, input_normalization='no_normalization', lr_scheduler='cosine', denoise_algo='soft_ddim', loss_type='reshaped_freq_full_img_v2', DiT_model=None, ddim_sigma=1, runner='run.py', out_channels=3, patch_size=8, norm_freq_comps=False, ddpm_unet_checkpoint=False, clip_sample=True, num_inference_steps=1000)
+0-2024-12-04 11:03:11,611 [INFO] Using ddpm_unet_LiF
+0-2024-12-04 11:03:12,310 [INFO] number of parameters: 60487296
+0-2024-12-04 11:03:12,373 [INFO] Using linear fermi schedule
+0-2024-12-04 11:03:14,425 [INFO] Loading checkpoint from /root/new/FDDM/results/fddm_p8_CelebA_e444d590/model-160000.pt
+0-2024-12-04 11:03:14,902 [INFO] Loading checkpoint from /root/new/FDDM/results/fddm_p8_CelebA_e444d590/model-160000.pt
+0-2024-12-04 11:03:14,918 [INFO] Loaded model
+0-2024-12-04 11:03:14,934 [INFO] Loaded ema
+0-2024-12-04 11:03:14,981 [INFO] Loaded optimizer
+0-2024-12-04 11:03:14,981 [INFO] Loaded step 160000
+0-2024-12-04 11:03:14,983 [INFO] <class 'fddm_process.FDDMRunner'>
+0-2024-12-04 11:03:15,064 [INFO] ['sample_condition.py',
+ '--model_config=configs/model_config.yaml',
+ '--diffusion_config=configs/diffusion_config.yaml',
+ '--task_config=configs/motion_deblur_config.yaml']
+0-2024-12-04 11:03:15,064 [INFO] Config(device='cuda:cuda:cuda:5', loss_wrapper_function='noise_coeff', normalize_loss_wrapper=False, channels=3, batch_size=64, eval_batch_size=1, save_and_sample_every=10000, save_state_every=10000, epochs=10000000, num_train_timesteps=1000, max_steps=800000, results_folder=PosixPath('../results/generated_samples_for_score/fddm_p8_CelebA_4dfd3a22'), fermi_start=4, fermi_end=-4, temperature=0.5, pad=[0, 0, 0, 0], image_size=64, cache_dataset=False, run_name='generated_samples_for_score/fddm_p8_CelebA', learning_rate=0.0002, lr_warmup_steps=5000, dataset='CelebA', ema_decay=0.9999, ema_update_every=1, save_input_samples=True, save_fourier_samples=False, process_name='fddm', t2=None, unet='ddpm_unet_LiF', overfit=False, fermi_schedule='linear', fermi_muliplier=1.0, checkpoint_path='/root/new/FDDM/results/fddm_p8_CelebA_e444d590/model-160000.pt', input_normalization_scale=1.0, input_normalization='no_normalization', lr_scheduler='cosine', denoise_algo='soft_ddim', loss_type='reshaped_freq_full_img_v2', DiT_model=None, ddim_sigma=1, runner='run.py', out_channels=3, patch_size=8, norm_freq_comps=False, ddpm_unet_checkpoint=False, clip_sample=True, num_inference_steps=1000)
+0-2024-12-04 11:03:15,065 [INFO] Using ddpm_unet_LiF
+0-2024-12-04 11:03:15,751 [INFO] number of parameters: 60487296
+0-2024-12-04 11:03:15,808 [INFO] Using linear fermi schedule
+0-2024-12-04 11:03:17,711 [INFO] Loading checkpoint from /root/new/FDDM/results/fddm_p8_CelebA_e444d590/model-160000.pt
+0-2024-12-04 11:03:18,337 [INFO] Loading checkpoint from /root/new/FDDM/results/fddm_p8_CelebA_e444d590/model-160000.pt
+0-2024-12-04 11:03:18,353 [INFO] Loaded model
+0-2024-12-04 11:03:18,369 [INFO] Loaded ema
+0-2024-12-04 11:03:18,411 [INFO] Loaded optimizer
+0-2024-12-04 11:03:18,411 [INFO] Loaded step 160000
+0-2024-12-04 11:03:18,413 [INFO] <class 'fddm_process.FDDMRunner'>
+0-2024-12-04 11:03:18,494 [INFO] ['sample_condition.py',
+ '--model_config=configs/model_config.yaml',
+ '--diffusion_config=configs/diffusion_config.yaml',
+ '--task_config=configs/motion_deblur_config.yaml']
+0-2024-12-04 11:03:18,494 [INFO] Config(device='cuda:cuda:cuda:5', loss_wrapper_function='noise_coeff', normalize_loss_wrapper=False, channels=3, batch_size=64, eval_batch_size=1, save_and_sample_every=10000, save_state_every=10000, epochs=10000000, num_train_timesteps=1000, max_steps=800000, results_folder=PosixPath('../results/generated_samples_for_score/fddm_p8_CelebA_50089294'), fermi_start=4, fermi_end=-4, temperature=0.5, pad=[0, 0, 0, 0], image_size=64, cache_dataset=False, run_name='generated_samples_for_score/fddm_p8_CelebA', learning_rate=0.0002, lr_warmup_steps=5000, dataset='CelebA', ema_decay=0.9999, ema_update_every=1, save_input_samples=True, save_fourier_samples=False, process_name='fddm', t2=None, unet='ddpm_unet_LiF', overfit=False, fermi_schedule='linear', fermi_muliplier=1.0, checkpoint_path='/root/new/FDDM/results/fddm_p8_CelebA_e444d590/model-160000.pt', input_normalization_scale=1.0, input_normalization='no_normalization', lr_scheduler='cosine', denoise_algo='soft_ddim', loss_type='reshaped_freq_full_img_v2', DiT_model=None, ddim_sigma=1, runner='run.py', out_channels=3, patch_size=8, norm_freq_comps=False, ddpm_unet_checkpoint=False, clip_sample=True, num_inference_steps=1000)
+0-2024-12-04 11:03:18,495 [INFO] Using ddpm_unet_LiF
+0-2024-12-04 11:03:19,175 [INFO] number of parameters: 60487296
+0-2024-12-04 11:03:19,232 [INFO] Using linear fermi schedule
+0-2024-12-04 11:03:21,151 [INFO] Loading checkpoint from /root/new/FDDM/results/fddm_p8_CelebA_e444d590/model-160000.pt
+0-2024-12-04 11:03:21,573 [INFO] Loading checkpoint from /root/new/FDDM/results/fddm_p8_CelebA_e444d590/model-160000.pt
+0-2024-12-04 11:03:21,589 [INFO] Loaded model
+0-2024-12-04 11:03:21,605 [INFO] Loaded ema
+0-2024-12-04 11:03:21,647 [INFO] Loaded optimizer
+0-2024-12-04 11:03:21,647 [INFO] Loaded step 160000
+0-2024-12-04 11:03:21,649 [INFO] <class 'fddm_process.FDDMRunner'>
+0-2024-12-04 11:03:21,726 [INFO] ['sample_condition.py',
+ '--model_config=configs/model_config.yaml',
+ '--diffusion_config=configs/diffusion_config.yaml',
+ '--task_config=configs/motion_deblur_config.yaml']
+0-2024-12-04 11:03:21,727 [INFO] Config(device='cuda:cuda:cuda:5', loss_wrapper_function='noise_coeff', normalize_loss_wrapper=False, channels=3, batch_size=64, eval_batch_size=1, save_and_sample_every=10000, save_state_every=10000, epochs=10000000, num_train_timesteps=1000, max_steps=800000, results_folder=PosixPath('../results/generated_samples_for_score/fddm_p8_CelebA_51f5ef8e'), fermi_start=4, fermi_end=-4, temperature=0.5, pad=[0, 0, 0, 0], image_size=64, cache_dataset=False, run_name='generated_samples_for_score/fddm_p8_CelebA', learning_rate=0.0002, lr_warmup_steps=5000, dataset='CelebA', ema_decay=0.9999, ema_update_every=1, save_input_samples=True, save_fourier_samples=False, process_name='fddm', t2=None, unet='ddpm_unet_LiF', overfit=False, fermi_schedule='linear', fermi_muliplier=1.0, checkpoint_path='/root/new/FDDM/results/fddm_p8_CelebA_e444d590/model-160000.pt', input_normalization_scale=1.0, input_normalization='no_normalization', lr_scheduler='cosine', denoise_algo='soft_ddim', loss_type='reshaped_freq_full_img_v2', DiT_model=None, ddim_sigma=1, runner='run.py', out_channels=3, patch_size=8, norm_freq_comps=False, ddpm_unet_checkpoint=False, clip_sample=True, num_inference_steps=1000)
+0-2024-12-04 11:03:21,727 [INFO] Using ddpm_unet_LiF
+0-2024-12-04 11:03:22,401 [INFO] number of parameters: 60487296
+0-2024-12-04 11:03:22,459 [INFO] Using linear fermi schedule
+0-2024-12-04 11:03:24,341 [INFO] Loading checkpoint from /root/new/FDDM/results/fddm_p8_CelebA_e444d590/model-160000.pt
+0-2024-12-04 11:03:24,769 [INFO] Loading checkpoint from /root/new/FDDM/results/fddm_p8_CelebA_e444d590/model-160000.pt
+0-2024-12-04 11:03:24,786 [INFO] Loaded model
+0-2024-12-04 11:03:24,802 [INFO] Loaded ema
+0-2024-12-04 11:03:24,846 [INFO] Loaded optimizer
+0-2024-12-04 11:03:24,846 [INFO] Loaded step 160000
+0-2024-12-04 11:03:24,848 [INFO] <class 'fddm_process.FDDMRunner'>
+0-2024-12-04 11:03:24,926 [INFO] ['sample_condition.py',
+ '--model_config=configs/model_config.yaml',
+ '--diffusion_config=configs/diffusion_config.yaml',
+ '--task_config=configs/motion_deblur_config.yaml']
+0-2024-12-04 11:03:24,927 [INFO] Config(device='cuda:cuda:cuda:5', loss_wrapper_function='noise_coeff', normalize_loss_wrapper=False, channels=3, batch_size=64, eval_batch_size=1, save_and_sample_every=10000, save_state_every=10000, epochs=10000000, num_train_timesteps=1000, max_steps=800000, results_folder=PosixPath('../results/generated_samples_for_score/fddm_p8_CelebA_53de3644'), fermi_start=4, fermi_end=-4, temperature=0.5, pad=[0, 0, 0, 0], image_size=64, cache_dataset=False, run_name='generated_samples_for_score/fddm_p8_CelebA', learning_rate=0.0002, lr_warmup_steps=5000, dataset='CelebA', ema_decay=0.9999, ema_update_every=1, save_input_samples=True, save_fourier_samples=False, process_name='fddm', t2=None, unet='ddpm_unet_LiF', overfit=False, fermi_schedule='linear', fermi_muliplier=1.0, checkpoint_path='/root/new/FDDM/results/fddm_p8_CelebA_e444d590/model-160000.pt', input_normalization_scale=1.0, input_normalization='no_normalization', lr_scheduler='cosine', denoise_algo='soft_ddim', loss_type='reshaped_freq_full_img_v2', DiT_model=None, ddim_sigma=1, runner='run.py', out_channels=3, patch_size=8, norm_freq_comps=False, ddpm_unet_checkpoint=False, clip_sample=True, num_inference_steps=1000)
+0-2024-12-04 11:03:24,928 [INFO] Using ddpm_unet_LiF
+0-2024-12-04 11:03:25,606 [INFO] number of parameters: 60487296
+0-2024-12-04 11:03:25,663 [INFO] Using linear fermi schedule
+0-2024-12-04 11:03:27,540 [INFO] Loading checkpoint from /root/new/FDDM/results/fddm_p8_CelebA_e444d590/model-160000.pt
+0-2024-12-04 11:03:27,968 [INFO] Loading checkpoint from /root/new/FDDM/results/fddm_p8_CelebA_e444d590/model-160000.pt
+0-2024-12-04 11:03:27,984 [INFO] Loaded model
+0-2024-12-04 11:03:28,000 [INFO] Loaded ema
+0-2024-12-04 11:03:28,042 [INFO] Loaded optimizer
+0-2024-12-04 11:03:28,042 [INFO] Loaded step 160000
+0-2024-12-04 11:03:28,044 [INFO] <class 'fddm_process.FDDMRunner'>
+0-2024-12-04 11:03:28,123 [INFO] ['sample_condition.py',
+ '--model_config=configs/model_config.yaml',
+ '--diffusion_config=configs/diffusion_config.yaml',
+ '--task_config=configs/motion_deblur_config.yaml']
+0-2024-12-04 11:03:28,123 [INFO] Config(device='cuda:cuda:cuda:5', loss_wrapper_function='noise_coeff', normalize_loss_wrapper=False, channels=3, batch_size=64, eval_batch_size=1, save_and_sample_every=10000, save_state_every=10000, epochs=10000000, num_train_timesteps=1000, max_steps=800000, results_folder=PosixPath('../results/generated_samples_for_score/fddm_p8_CelebA_55c5f0c8'), fermi_start=4, fermi_end=-4, temperature=0.5, pad=[0, 0, 0, 0], image_size=64, cache_dataset=False, run_name='generated_samples_for_score/fddm_p8_CelebA', learning_rate=0.0002, lr_warmup_steps=5000, dataset='CelebA', ema_decay=0.9999, ema_update_every=1, save_input_samples=True, save_fourier_samples=False, process_name='fddm', t2=None, unet='ddpm_unet_LiF', overfit=False, fermi_schedule='linear', fermi_muliplier=1.0, checkpoint_path='/root/new/FDDM/results/fddm_p8_CelebA_e444d590/model-160000.pt', input_normalization_scale=1.0, input_normalization='no_normalization', lr_scheduler='cosine', denoise_algo='soft_ddim', loss_type='reshaped_freq_full_img_v2', DiT_model=None, ddim_sigma=1, runner='run.py', out_channels=3, patch_size=8, norm_freq_comps=False, ddpm_unet_checkpoint=False, clip_sample=True, num_inference_steps=1000)
+0-2024-12-04 11:03:28,124 [INFO] Using ddpm_unet_LiF
+0-2024-12-04 11:03:28,802 [INFO] number of parameters: 60487296
+0-2024-12-04 11:03:28,860 [INFO] Using linear fermi schedule
+0-2024-12-04 11:03:30,879 [INFO] Loading checkpoint from /root/new/FDDM/results/fddm_p8_CelebA_e444d590/model-160000.pt
+0-2024-12-04 11:03:31,322 [INFO] Loading checkpoint from /root/new/FDDM/results/fddm_p8_CelebA_e444d590/model-160000.pt
+0-2024-12-04 11:03:31,343 [INFO] Loaded model
+0-2024-12-04 11:03:31,359 [INFO] Loaded ema
+0-2024-12-04 11:03:31,401 [INFO] Loaded optimizer
+0-2024-12-04 11:03:31,401 [INFO] Loaded step 160000
+0-2024-12-04 11:03:31,403 [INFO] <class 'fddm_process.FDDMRunner'>
+0-2024-12-04 11:03:31,526 [INFO] ['sample_condition.py',
+ '--model_config=configs/model_config.yaml',
+ '--diffusion_config=configs/diffusion_config.yaml',
+ '--task_config=configs/motion_deblur_config.yaml']
+0-2024-12-04 11:03:31,526 [INFO] Config(device='cuda:cuda:cuda:5', loss_wrapper_function='noise_coeff', normalize_loss_wrapper=False, channels=3, batch_size=64, eval_batch_size=1, save_and_sample_every=10000, save_state_every=10000, epochs=10000000, num_train_timesteps=1000, max_steps=800000, results_folder=PosixPath('../results/generated_samples_for_score/fddm_p8_CelebA_57cd4dbc'), fermi_start=4, fermi_end=-4, temperature=0.5, pad=[0, 0, 0, 0], image_size=64, cache_dataset=False, run_name='generated_samples_for_score/fddm_p8_CelebA', learning_rate=0.0002, lr_warmup_steps=5000, dataset='CelebA', ema_decay=0.9999, ema_update_every=1, save_input_samples=True, save_fourier_samples=False, process_name='fddm', t2=None, unet='ddpm_unet_LiF', overfit=False, fermi_schedule='linear', fermi_muliplier=1.0, checkpoint_path='/root/new/FDDM/results/fddm_p8_CelebA_e444d590/model-160000.pt', input_normalization_scale=1.0, input_normalization='no_normalization', lr_scheduler='cosine', denoise_algo='soft_ddim', loss_type='reshaped_freq_full_img_v2', DiT_model=None, ddim_sigma=1, runner='run.py', out_channels=3, patch_size=8, norm_freq_comps=False, ddpm_unet_checkpoint=False, clip_sample=True, num_inference_steps=1000)
+0-2024-12-04 11:03:31,526 [INFO] Using ddpm_unet_LiF
+0-2024-12-04 11:03:32,197 [INFO] number of parameters: 60487296
+0-2024-12-04 11:03:32,254 [INFO] Using linear fermi schedule
+0-2024-12-04 11:03:34,137 [INFO] Loading checkpoint from /root/new/FDDM/results/fddm_p8_CelebA_e444d590/model-160000.pt
+0-2024-12-04 11:03:34,572 [INFO] Loading checkpoint from /root/new/FDDM/results/fddm_p8_CelebA_e444d590/model-160000.pt
+0-2024-12-04 11:03:34,588 [INFO] Loaded model
+0-2024-12-04 11:03:34,604 [INFO] Loaded ema
+0-2024-12-04 11:03:34,646 [INFO] Loaded optimizer
+0-2024-12-04 11:03:34,646 [INFO] Loaded step 160000
+0-2024-12-04 11:03:34,647 [INFO] <class 'fddm_process.FDDMRunner'>
+0-2024-12-04 11:03:34,725 [INFO] ['sample_condition.py',
+ '--model_config=configs/model_config.yaml',
+ '--diffusion_config=configs/diffusion_config.yaml',
+ '--task_config=configs/motion_deblur_config.yaml']
+0-2024-12-04 11:03:34,725 [INFO] Config(device='cuda:cuda:cuda:5', loss_wrapper_function='noise_coeff', normalize_loss_wrapper=False, channels=3, batch_size=64, eval_batch_size=1, save_and_sample_every=10000, save_state_every=10000, epochs=10000000, num_train_timesteps=1000, max_steps=800000, results_folder=PosixPath('../results/generated_samples_for_score/fddm_p8_CelebA_59b55a66'), fermi_start=4, fermi_end=-4, temperature=0.5, pad=[0, 0, 0, 0], image_size=64, cache_dataset=False, run_name='generated_samples_for_score/fddm_p8_CelebA', learning_rate=0.0002, lr_warmup_steps=5000, dataset='CelebA', ema_decay=0.9999, ema_update_every=1, save_input_samples=True, save_fourier_samples=False, process_name='fddm', t2=None, unet='ddpm_unet_LiF', overfit=False, fermi_schedule='linear', fermi_muliplier=1.0, checkpoint_path='/root/new/FDDM/results/fddm_p8_CelebA_e444d590/model-160000.pt', input_normalization_scale=1.0, input_normalization='no_normalization', lr_scheduler='cosine', denoise_algo='soft_ddim', loss_type='reshaped_freq_full_img_v2', DiT_model=None, ddim_sigma=1, runner='run.py', out_channels=3, patch_size=8, norm_freq_comps=False, ddpm_unet_checkpoint=False, clip_sample=True, num_inference_steps=1000)
+0-2024-12-04 11:03:34,726 [INFO] Using ddpm_unet_LiF
+0-2024-12-04 11:03:35,408 [INFO] number of parameters: 60487296
+0-2024-12-04 11:03:35,465 [INFO] Using linear fermi schedule
+0-2024-12-04 11:03:37,445 [INFO] Loading checkpoint from /root/new/FDDM/results/fddm_p8_CelebA_e444d590/model-160000.pt
+0-2024-12-04 11:03:37,886 [INFO] Loading checkpoint from /root/new/FDDM/results/fddm_p8_CelebA_e444d590/model-160000.pt
+0-2024-12-04 11:03:37,903 [INFO] Loaded model
+0-2024-12-04 11:03:37,918 [INFO] Loaded ema
+0-2024-12-04 11:03:37,961 [INFO] Loaded optimizer
+0-2024-12-04 11:03:37,961 [INFO] Loaded step 160000
+0-2024-12-04 11:03:37,962 [INFO] <class 'fddm_process.FDDMRunner'>
+0-2024-12-04 11:03:38,041 [INFO] ['sample_condition.py',
+ '--model_config=configs/model_config.yaml',
+ '--diffusion_config=configs/diffusion_config.yaml',
+ '--task_config=configs/motion_deblur_config.yaml']
+0-2024-12-04 11:03:38,041 [INFO] Config(device='cuda:cuda:cuda:5', loss_wrapper_function='noise_coeff', normalize_loss_wrapper=False, channels=3, batch_size=64, eval_batch_size=1, save_and_sample_every=10000, save_state_every=10000, epochs=10000000, num_train_timesteps=1000, max_steps=800000, results_folder=PosixPath('../results/generated_samples_for_score/fddm_p8_CelebA_5baf3e0e'), fermi_start=4, fermi_end=-4, temperature=0.5, pad=[0, 0, 0, 0], image_size=64, cache_dataset=False, run_name='generated_samples_for_score/fddm_p8_CelebA', learning_rate=0.0002, lr_warmup_steps=5000, dataset='CelebA', ema_decay=0.9999, ema_update_every=1, save_input_samples=True, save_fourier_samples=False, process_name='fddm', t2=None, unet='ddpm_unet_LiF', overfit=False, fermi_schedule='linear', fermi_muliplier=1.0, checkpoint_path='/root/new/FDDM/results/fddm_p8_CelebA_e444d590/model-160000.pt', input_normalization_scale=1.0, input_normalization='no_normalization', lr_scheduler='cosine', denoise_algo='soft_ddim', loss_type='reshaped_freq_full_img_v2', DiT_model=None, ddim_sigma=1, runner='run.py', out_channels=3, patch_size=8, norm_freq_comps=False, ddpm_unet_checkpoint=False, clip_sample=True, num_inference_steps=1000)
+0-2024-12-04 11:03:38,042 [INFO] Using ddpm_unet_LiF
+0-2024-12-04 11:03:38,735 [INFO] number of parameters: 60487296
+0-2024-12-04 11:03:38,801 [INFO] Using linear fermi schedule
+0-2024-12-04 11:03:40,689 [INFO] Loading checkpoint from /root/new/FDDM/results/fddm_p8_CelebA_e444d590/model-160000.pt
+0-2024-12-04 11:03:41,196 [INFO] Loading checkpoint from /root/new/FDDM/results/fddm_p8_CelebA_e444d590/model-160000.pt
+0-2024-12-04 11:03:41,213 [INFO] Loaded model
+0-2024-12-04 11:03:41,229 [INFO] Loaded ema
+0-2024-12-04 11:03:41,271 [INFO] Loaded optimizer
+0-2024-12-04 11:03:41,271 [INFO] Loaded step 160000
+0-2024-12-04 11:03:41,273 [INFO] <class 'fddm_process.FDDMRunner'>
+0-2024-12-04 11:03:41,350 [INFO] ['sample_condition.py',
+ '--model_config=configs/model_config.yaml',
+ '--diffusion_config=configs/diffusion_config.yaml',
+ '--task_config=configs/motion_deblur_config.yaml']
+0-2024-12-04 11:03:41,350 [INFO] Config(device='cuda:cuda:cuda:5', loss_wrapper_function='noise_coeff', normalize_loss_wrapper=False, channels=3, batch_size=64, eval_batch_size=1, save_and_sample_every=10000, save_state_every=10000, epochs=10000000, num_train_timesteps=1000, max_steps=800000, results_folder=PosixPath('../results/generated_samples_for_score/fddm_p8_CelebA_5da837ec'), fermi_start=4, fermi_end=-4, temperature=0.5, pad=[0, 0, 0, 0], image_size=64, cache_dataset=False, run_name='generated_samples_for_score/fddm_p8_CelebA', learning_rate=0.0002, lr_warmup_steps=5000, dataset='CelebA', ema_decay=0.9999, ema_update_every=1, save_input_samples=True, save_fourier_samples=False, process_name='fddm', t2=None, unet='ddpm_unet_LiF', overfit=False, fermi_schedule='linear', fermi_muliplier=1.0, checkpoint_path='/root/new/FDDM/results/fddm_p8_CelebA_e444d590/model-160000.pt', input_normalization_scale=1.0, input_normalization='no_normalization', lr_scheduler='cosine', denoise_algo='soft_ddim', loss_type='reshaped_freq_full_img_v2', DiT_model=None, ddim_sigma=1, runner='run.py', out_channels=3, patch_size=8, norm_freq_comps=False, ddpm_unet_checkpoint=False, clip_sample=True, num_inference_steps=1000)
+0-2024-12-04 11:03:41,351 [INFO] Using ddpm_unet_LiF
+0-2024-12-04 11:03:42,030 [INFO] number of parameters: 60487296
+0-2024-12-04 11:03:42,088 [INFO] Using linear fermi schedule
+0-2024-12-04 11:03:44,068 [INFO] Loading checkpoint from /root/new/FDDM/results/fddm_p8_CelebA_e444d590/model-160000.pt
+0-2024-12-04 11:03:44,497 [INFO] Loading checkpoint from /root/new/FDDM/results/fddm_p8_CelebA_e444d590/model-160000.pt
+0-2024-12-04 11:03:44,514 [INFO] Loaded model
+0-2024-12-04 11:03:44,529 [INFO] Loaded ema
+0-2024-12-04 11:03:44,571 [INFO] Loaded optimizer
+0-2024-12-04 11:03:44,572 [INFO] Loaded step 160000
+0-2024-12-04 11:03:44,573 [INFO] <class 'fddm_process.FDDMRunner'>
+0-2024-12-04 11:03:44,651 [INFO] ['sample_condition.py',
+ '--model_config=configs/model_config.yaml',
+ '--diffusion_config=configs/diffusion_config.yaml',
+ '--task_config=configs/motion_deblur_config.yaml']
+0-2024-12-04 11:03:44,651 [INFO] Config(device='cuda:cuda:cuda:5', loss_wrapper_function='noise_coeff', normalize_loss_wrapper=False, channels=3, batch_size=64, eval_batch_size=1, save_and_sample_every=10000, save_state_every=10000, epochs=10000000, num_train_timesteps=1000, max_steps=800000, results_folder=PosixPath('../results/generated_samples_for_score/fddm_p8_CelebA_5f9feed2'), fermi_start=4, fermi_end=-4, temperature=0.5, pad=[0, 0, 0, 0], image_size=64, cache_dataset=False, run_name='generated_samples_for_score/fddm_p8_CelebA', learning_rate=0.0002, lr_warmup_steps=5000, dataset='CelebA', ema_decay=0.9999, ema_update_every=1, save_input_samples=True, save_fourier_samples=False, process_name='fddm', t2=None, unet='ddpm_unet_LiF', overfit=False, fermi_schedule='linear', fermi_muliplier=1.0, checkpoint_path='/root/new/FDDM/results/fddm_p8_CelebA_e444d590/model-160000.pt', input_normalization_scale=1.0, input_normalization='no_normalization', lr_scheduler='cosine', denoise_algo='soft_ddim', loss_type='reshaped_freq_full_img_v2', DiT_model=None, ddim_sigma=1, runner='run.py', out_channels=3, patch_size=8, norm_freq_comps=False, ddpm_unet_checkpoint=False, clip_sample=True, num_inference_steps=1000)
+0-2024-12-04 11:03:44,652 [INFO] Using ddpm_unet_LiF
+0-2024-12-04 11:03:45,328 [INFO] number of parameters: 60487296
+0-2024-12-04 11:03:45,387 [INFO] Using linear fermi schedule
